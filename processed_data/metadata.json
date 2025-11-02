@@ -1,0 +1,10 @@
+{
+    "num_samples": 4000,
+    "window_size": 868,
+    "window_duration_seconds": 5.0,
+    "sampling_frequency": 173.61,
+    "overlap_ratio": 0.5,
+    "num_class_0": 3200,
+    "num_class_1": 800,
+    "normalization_method": "z-score"
+}

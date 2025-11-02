@@ -1,0 +1,34 @@
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Processed data (duże pliki - możesz odkomentować jeśli chcesz je wrzucić)
+processed_data/*.npy
+
+# Temporary files
+*.tmp
+temp_*.html
+convert_to_pdf.py
+md_to_pdf_proper.py
+generate_pdf_html.py
+generate_clean_pdf.py
+
+# macOS
+.DS_Store
