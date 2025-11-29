@@ -1,0 +1,27 @@
+{
+    "timestamp": "2025-11-02T16:18:30.857134",
+    "model": "LSTM (2 warstwy)",
+    "dataset": "Bonn EEG",
+    "test_metrics": {
+        "accuracy": 0.775,
+        "precision": 0.4050632911392405,
+        "recall": 0.26666666666666666,
+        "f1_score": 0.32160804020100503
+    },
+    "confusion_matrix": [
+        [
+            433,
+            47
+        ],
+        [
+            88,
+            32
+        ]
+    ],
+    "hyperparameters": {
+        "batch_size": 32,
+        "learning_rate": 0.001,
+        "epochs_trained": 12,
+        "architecture": "2xLSTM(64,32) + Dense(2)"
+    }
+}
